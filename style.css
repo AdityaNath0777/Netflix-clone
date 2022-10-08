@@ -103,12 +103,12 @@ body {
 }
 
 #accordion li label span {
-    transform: rotate(90deg);
+    /* transform: rotate(45deg); */
     font-size: 22px;
     color: rgb(254, 254, 254);
 }
 
-#accordion label+input[type="radio"] {
+#accordion label+input[type="checkbox"] {
     display: none;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 
-#accordion label+input[type="radio"]:checked+.content {
+#accordion label+input[type="checkbox"]:checked+.content {
     max-height: 400px;
     margin: auto;
 
